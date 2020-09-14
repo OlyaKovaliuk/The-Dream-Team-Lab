@@ -55,7 +55,7 @@
 
 .arrows {
   top: 306px;
-  background: #7CC8C9;
+  background: $color_light-blue;
   position: absolute;
 
   &__arrow_right {
@@ -68,8 +68,8 @@
       width: 12px;
       height: 12px;
       border: 2px solid transparent;
-      border-left-color: #FFFFFF;
-      border-bottom-color: #FFFFFF;
+      border-left-color: #FFF;
+      border-bottom-color: #FFF;
       transform: rotate(45deg);
     }
   }
@@ -84,8 +84,8 @@
       width: 12px;
       height: 12px;
       border: 2px solid transparent;
-      border-top-color: #FFFFFF;
-      border-right-color: #FFFFFF;
+      border-top-color: #FFF;
+      border-right-color: #FFF;
       transform: rotate(45deg);
     }
   }

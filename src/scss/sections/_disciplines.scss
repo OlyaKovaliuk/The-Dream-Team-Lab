@@ -1,0 +1,53 @@
+@import 'utils/variables';
+
+.disciplines {
+  padding: 35px 0 40px;
+  width: 850px;
+  margin: 0 auto;
+
+  &__background {
+    background-image: url(../images/disciplines-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $color_dark-grey;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    color: $color_light-grey;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  &__items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.item {
+  margin-bottom: 35px;
+
+  &__title {
+    position: relative;
+    padding: 20px;
+    background-color: #FFF;
+    color: $color_light-blue;
+    font-size: 18px;
+    font-weight: 500;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 45px;
+      left: 236px;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid $color_light-blue;
+      transform: rotate(225deg);
+    }
+  }
+}
