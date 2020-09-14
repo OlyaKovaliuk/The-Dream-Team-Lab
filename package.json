@@ -1,0 +1,44 @@
+{
+  "name": "dream-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlyaKovaliuk/The-Dream-Team-Lab.git"
+  },
+  "keywords": [],
+  "author": "olya.kovaliuk@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlyaKovaliuk/The-Dream-Team-Lab/issues"
+  },
+  "homepage": "https://github.com/OlyaKovaliuk/The-Dream-Team-Lab#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-minify": "0.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.4.0",
+    "gulp-w3c-html-validator": "^2.0.1",
+    "readable-stream": "^3.6.0"
+  }
+}
