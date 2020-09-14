@@ -38,7 +38,7 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(360deg, $color_light-blue 0%, $color_light-blue 100%);
+    background: linear-gradient(360deg, $color_light-blue 0%, $color_light-blue_transparent 100%)
   }
 
   &__name {

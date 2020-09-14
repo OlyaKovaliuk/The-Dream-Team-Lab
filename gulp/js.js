@@ -6,7 +6,7 @@ const terser = require("gulp-terser");
 
 module.exports = function js() {
   return pipeline(
-      gulp.src('src/js/*.js'),
+      gulp.src('src/scripts/*.js'),
       babel({
           presets: ['@babel/env']
       }),

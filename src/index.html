@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.min.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/png">
   <title>Dream Team</title>
 </head>
 <body>
@@ -14,11 +15,11 @@
       <header class="header__heading">
         <img src="images/logo.png" alt="logo">
         <nav class="header__navbar navbar">
-          <a href="#" class="navbar__link">О клубе</a>
+          <a href="#about-us" class="navbar__link">О клубе</a>
           <a href="#" class="navbar__link">Новости</a>
-          <a href="#" class="navbar__link">Дисиплины</a>
+          <a href="#disciplines" class="navbar__link">Дисиплины</a>
           <a href="#" class="navbar__link">Расписание</a>
-          <a href="#" class="navbar__link">Тренеры</a>
+          <a href="#coaches" class="navbar__link">Тренеры</a>
           <a href="#" class="navbar__link">Тарифы</a>
           <a href="#" class="navbar__link">Контакты</a>
         </nav>
@@ -29,11 +30,11 @@
       <div class="main__container">
         <h1 class="main__title">dream team lab</h1>
         <h2 class="main__subtitle">функциональные<br>тренировки</h2>
-        <span class="main__phone">+7(499)000-00-00</span>
+        <a href="tel:+7(499)000-00-00" class="main__phone">+7(499)000-00-00</a>
       </div>
     </section>
   </section>
-  <section class="about-us">
+  <section class="about-us" id="about-us">
     <img src="images/ellipse-turquoise.png" class="about-us__ellipse" alt="ellipse">
     <div class="about-us__container">
       <div class="about-us__left-section">
@@ -53,7 +54,7 @@
       </div>
     </div>
   </section>
-  <section class="disciplines__background">
+  <section class="disciplines__background" id="disciplines">
     <div class="disciplines">
       <h2 class="disciplines__title">дисциплины</h2>
       <div class="disciplines__items-container">
@@ -88,8 +89,8 @@
       </div>
     </div>
   </section>
-  <section class="coaches">
-    <img src="images/ellipse-turquoise.png" class="coaches__ellipse">
+  <section class="coaches" id="coaches">
+    <img src="images/ellipse-turquoise.png" class="coaches__ellipse" alt="ellipse">
     <div class="coaches__container">
       <h2 class="title">команда</h2>
       <h2 class="subtitle coaches__subtitle">наши тренеры</h2>
@@ -136,6 +137,6 @@
       </div>
     </div>
   </section>
-  <!-- <script src="js/scripts.min.js"></script> -->
+  <script src="js/scripts.min.js"></script>
 </body>
 </html>
