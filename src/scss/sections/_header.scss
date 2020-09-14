@@ -1,0 +1,83 @@
+@import 'utils/variables';
+
+.header {
+
+  &__background-image {
+    background-image: url(../images/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__background {
+    background-color: $color_black-transparent;
+  }
+
+  &__heading {
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__ellipse {
+    width: 850px;
+    left: 755px;
+    top: -516px;
+    overflow: hidden;
+    position: absolute;
+  }
+}
+
+.navbar {
+  &__link {
+    margin-right: 10px;
+    color: $color_white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0;
+    border-bottom: 1.5px solid transparent;
+
+    &:hover {
+      border-bottom-color: $color_light-aquamarine;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.main {
+  overflow: hidden;
+  position: relative;
+
+  &__container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 135px 0 140px;
+  }
+
+  &__title {
+    color: $color_light-blue;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 120px;
+  }
+
+  &__subtitle {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: $color_white-blueish;
+    font-weight: 900;
+    margin-bottom: 100px;
+    line-height: 43px;
+  }
+
+  &__phone {
+    color: $color_whitish;
+    font-size: 24px;
+  }
+}
