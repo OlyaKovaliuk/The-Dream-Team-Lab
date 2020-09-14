@@ -1,6 +1,27 @@
 @import 'utils/_reset';
 @import 'sections/_header';
+@import 'sections/_about-us';
 
 * {
   font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  color: #7CC8C9;
+  font-size: 61px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.subtitle {
+  position: absolute;
+  top: 35px;
+  color: #383647;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+
+  &_colored {
+    color: #7CC8C9;
+  }
 }
