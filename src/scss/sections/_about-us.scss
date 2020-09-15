@@ -42,6 +42,7 @@
 
     &_active {
       width: 484px;
+      height: 334px;
       margin-top: 8px;
     }
   }
@@ -54,12 +55,16 @@
 }
 
 .arrows {
-  top: 306px;
   background: $color_light-blue;
-  position: absolute;
+  display: inline-block;
+  cursor: pointer;
 
-  &__arrow_right {
-    left: 0;
+  &__container {
+    position: absolute;
+    top: 306px;
+  }
+
+  &__arrow_left {
     padding: 10px 3px 10px 11px;
 
     &::after {
@@ -74,8 +79,7 @@
     }
   }
 
-  &__arrow_left {
-    left: 37px;
+  &__arrow_right {
     padding: 10px 11px 10px 3px;
 
     &::after {
